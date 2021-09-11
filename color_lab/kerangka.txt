@@ -1,0 +1,18 @@
+piih warna
+misal r,g,b => 100,100,100
+
+function getHex(value){
+var hex = parseInt(value).toString(16);
+return hex.length == 1 ? "0" + hex : hex;
+}
+
+fitur :
+- mengetahui komposisi warna yang dipilih dari campuran 3 warna ajaa
+- mencampur beberapa warna menjadi satu warna
+- cara membuat warna tertentu dengan warna lain misal (cyan + merah)
+
+misal
+komposisi cyan = 0 merah, 1 hijau, 1 biru
+komposisi ungu = 1 merah, 0 hijau, 1 biru
+cyan + ungu = 1 , 1 , 2
+misal merah 10, hijau 10, biru 20 => fpb nya

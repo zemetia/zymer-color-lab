@@ -1,0 +1,25 @@
+<input type="range" style="width: 255px" id="r" max="255" min="0" onchange="tmpl()"></input><br>
+<input type="range" style="width: 255px" id="g" max="255" min="0" onchange="tmpl()"></input><br>
+<input type="range" style="width: 255px" id="b" max="255" min="0" onchange="tmpl()"></input><br>
+<div id="ktk"></div><p id='data'></p>
+<style>
+	#ktk {
+		width: 50px;
+		height: 50px;
+		background-color: #000000;
+	}
+</style>
+<button onclick="perbandingan()">Lihat Perbandingan</button>
+<button onclick="ambil()">Take warna</button>
+<button onclick="optimal()">Optimalkan</button>
+<button onclick="optimalb()">Optimalkan Perbandingan</button>
+<table>
+<tr id="tempat"></tr>
+</table>
+<button onclick="tambah()">tambahkan warna</button>
+<table>
+<tr id="tambah"></tr>
+<tr id="jumlah"></tr>
+<tr id="jlhwarna"></tr>
+</table>
+<script src="script.js"></script>
