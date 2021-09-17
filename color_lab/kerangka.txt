@@ -16,3 +16,5 @@ komposisi cyan = 0 merah, 1 hijau, 1 biru
 komposisi ungu = 1 merah, 0 hijau, 1 biru
 cyan + ungu = 1 , 1 , 2
 misal merah 10, hijau 10, biru 20 => fpb nya
+
+Masukkan code warna #000000=> diubah ke rgb=> 0,0,0
