@@ -84,8 +84,8 @@ function hextorgb(hex){
 }
 
 function getHex(value){
-var hex = parseInt(value).toString(16);
-return hex.length == 1 ? "0" + hex : hex;
+	var hex = parseInt(value).toString(16);
+	return hex.length == 1 ? "0" + hex : hex;
 }
 
 function getCurrentRGB(){
